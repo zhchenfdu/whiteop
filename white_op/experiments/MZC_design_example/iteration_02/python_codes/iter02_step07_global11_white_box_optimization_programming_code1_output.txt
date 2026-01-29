@@ -1,0 +1,39 @@
+stdout:
+============================================================
+Optimization Results
+============================================================
+Multi-start: 21/200 successful, Time: 28.72s
+
+Optimal Design Variables:
+  G1 = 1.000000e-05 S
+  G2 = 1.433054e-04 S
+  Gf = 1.022324e-05 S
+  A1 = 60.694897
+  A2 = 40.346546
+  Af = 78.758472
+  Cm = 1.501661e-12 F
+
+Performance Metrics:
+  Gain   = 67.23 dB (spec: >60 dB)
+  GBW    = 1.059859 MHz (spec: >0.5 MHz)
+  PM     = 65.00 deg (spec: 55-65 deg)
+  Power  = 14.72 uW (spec: <250 uW)
+  FoM    = 720.1319
+
+Zeros and Poles:
+  z1  = 2.437329e+08 rad/s (38.7913 MHz)
+  p2  = 1.331859e+07 rad/s (2.1197 MHz)
+
+Constraint Verification:
+  Gain >= 60 dB:     67.23 >= 60      PASS
+  GBW >= 0.5 MHz:    1.0599 >= 0.5    PASS
+  PM in [55, 65]:    65.00 in [55,65] PASS
+  Power <= 250 uW:   14.72 <= 250    PASS
+  Cons A2 (Miller):  1.501661e-12 >= 1.149702e-14      PASS
+  Cons C1 (p2>2GBW): 1.331859e+07 >= 1.331859e+07      BOUNDARY
+  Cons C2 (LHP Zero):1.651827e-17 >= 1.651827e-17      PASS
+  Cons C3 (z1>GBW):  2.437329e+08 >= 6.659293e+06      PASS
+============================================================
+
+
+stderr:

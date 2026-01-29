@@ -1,0 +1,13 @@
+python3 scripts/run_p2m_design.py \
+    --netlist examples/tcasi2000/SMC.sp \
+    --gain-min 60 \
+    --gbw-min 0.5 \
+    --pm-min 55 \
+    --pm-max 65 \
+    --power-max 250 \
+    --iterations 3 \
+    --gmid-map-base <PATH_TO_GMID_MAP> \
+    --hspice-path <PATH_TO_HSPICE_EXECUTABLE> \
+    --base-url <LLM_API_BASE_URL> \
+    --api-key <LLM_API_KEY> \
+    --model <LLM_MODEL_NAME>

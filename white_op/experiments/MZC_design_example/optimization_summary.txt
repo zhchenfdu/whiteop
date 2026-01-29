@@ -1,0 +1,43 @@
+================================================================================
+Optimization Summary Report
+================================================================================
+Generated at: 2026-01-19 03:33:01
+
+## Behavioral-level Optimization Results
+
+Performance Metrics:
+  - FoM: 638.18
+  - Gain: 67.24 dB
+  - GBW: 0.94 MHz
+  - Phase Margin: 67.02°
+  - Power: 14.72 μW
+
+Optimization Statistics:
+  - Best Iteration: 2
+  - Total Iterations: 2
+  - Total Time: 12.89 minutes
+
+Optimal Parameters:
+  A_1 = 60.694897
+  A_2 = 40.346546
+  A_f = 78.758472
+  C_m = 1.501661e-12
+  G_1 = 1e-05
+  G_2 = 0.0001433054
+  G_f = 1.022324e-05
+
+## Transistor-level Mapping Results
+
+Performance Metrics:
+  - FoM: 121.00
+  - Gain: 83.18 dB
+  - GBW: 0.55 MHz
+  - Phase Margin: 66.50°
+  - Power: 45.25 μW
+
+## File Path Information
+
+Experiment Directory: experiments/pipeline_outputs_20260119_031945_MZC
+Behavioral-level HSPICE Results: experiments/pipeline_outputs_20260119_031945_MZC/bl_hspice
+Behavioral-level Spectre Results: experiments/pipeline_outputs_20260119_031945_MZC/bl_spectre
+Transistor-level Spectre Results: experiments/pipeline_outputs_20260119_031945_MZC/tl_spectre

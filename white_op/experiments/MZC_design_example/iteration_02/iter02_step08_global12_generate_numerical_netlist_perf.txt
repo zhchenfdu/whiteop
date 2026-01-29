@@ -1,0 +1,12 @@
+Performance metrics based on Step 7 optimization results:
+- Gain: 67.23 dB
+- GBW: 1.059859 MHz
+- Phase Margin: 65.00 °
+- Power: 14.72 μW
+- FoM: 720.1319 
+
+Target requirements:
+- Gain: > 60 dB
+- Bandwidth: > 0.5 MHz
+- Phase margin: 55-65° (ideal: 60°)
+- Power: < 250 μW

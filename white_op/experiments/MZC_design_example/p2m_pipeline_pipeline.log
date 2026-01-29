@@ -1,0 +1,103 @@
+2026-01-19 03:19:45.174 [    INFO] [p2m.pipeline.pipeline] [MainThread] Output directory created: experiments/pipeline_outputs_20260119_031945_MZC
+2026-01-19 03:19:45.175 [    INFO] [p2m.pipeline.pipeline] [MainThread] 🚀 Starting P2M chain execution (supports internal iterations, max 3 times)
+2026-01-19 03:19:45.175 [    INFO] [p2m.pipeline.pipeline] [MainThread] ============================================================
+2026-01-19 03:19:45.175 [    INFO] [p2m.pipeline.pipeline] [MainThread] 🔄 P2M Internal Iteration 1/3
+2026-01-19 03:19:45.175 [    INFO] [p2m.pipeline.pipeline] [MainThread] ============================================================
+2026-01-19 03:19:45.177 [    INFO] [p2m.pipeline.pipeline] [MainThread] [Step 1] circuit_topology_interpretation
+2026-01-19 03:19:45.177 [    INFO] [p2m.pipeline.pipeline] [MainThread] [Global Step 1] [Iteration 1]
+2026-01-19 03:19:45.177 [    INFO] [p2m.pipeline.pipeline] [MainThread] 📝 Starting step execution: circuit_topology_interpretation (Global Step 1)
+2026-01-19 03:20:22.204 [    INFO] [p2m.pipeline.pipeline] [MainThread] ✅ API call completed, elapsed: 37.027s
+2026-01-19 03:20:22.207 [    INFO] [p2m.pipeline.pipeline] [MainThread] ✓ circuit_topology_interpretation completed
+2026-01-19 03:20:22.207 [    INFO] [p2m.pipeline.pipeline] [MainThread] [Step 2] circuit_equation_formulation
+2026-01-19 03:20:22.207 [    INFO] [p2m.pipeline.pipeline] [MainThread] [Global Step 2] [Iteration 1]
+2026-01-19 03:20:22.207 [    INFO] [p2m.pipeline.pipeline] [MainThread] 📝 Starting step execution: circuit_equation_formulation (Global Step 2)
+2026-01-19 03:20:53.424 [    INFO] [p2m.pipeline.pipeline] [MainThread] ✅ API call completed, elapsed: 31.217s
+2026-01-19 03:20:53.426 [    INFO] [p2m.pipeline.pipeline] [MainThread] ✓ circuit_equation_formulation completed
+2026-01-19 03:20:53.426 [    INFO] [p2m.pipeline.pipeline] [MainThread] [Step 3] unbiased_transfer_function_derivation
+2026-01-19 03:20:53.426 [    INFO] [p2m.pipeline.pipeline] [MainThread] [Global Step 3] [Iteration 1]
+2026-01-19 03:20:53.426 [    INFO] [p2m.pipeline.pipeline] [MainThread] 📝 Starting step execution: unbiased_transfer_function_derivation (Global Step 3)
+2026-01-19 03:21:42.888 [    INFO] [p2m.pipeline.pipeline] [MainThread] ✅ API call completed, elapsed: 49.461s
+2026-01-19 03:21:42.892 [    INFO] [p2m.pipeline.pipeline] [MainThread] ✓ unbiased_transfer_function_derivation completed
+2026-01-19 03:21:42.892 [    INFO] [p2m.pipeline.pipeline] [MainThread] [Step 4] design_variable_substitution_and_simplification
+2026-01-19 03:21:42.893 [    INFO] [p2m.pipeline.pipeline] [MainThread] [Global Step 4] [Iteration 1]
+2026-01-19 03:21:42.893 [    INFO] [p2m.pipeline.pipeline] [MainThread] 📝 Starting step execution: design_variable_substitution_and_simplification (Global Step 4)
+2026-01-19 03:22:23.461 [    INFO] [p2m.pipeline.pipeline] [MainThread] ✅ API call completed, elapsed: 40.568s
+2026-01-19 03:22:23.465 [    INFO] [p2m.pipeline.pipeline] [MainThread] ✓ design_variable_substitution_and_simplification completed
+2026-01-19 03:22:23.465 [    INFO] [p2m.pipeline.pipeline] [MainThread] [Step 5] pole_and_zero_extraction
+2026-01-19 03:22:23.466 [    INFO] [p2m.pipeline.pipeline] [MainThread] [Global Step 5] [Iteration 1]
+2026-01-19 03:22:23.466 [    INFO] [p2m.pipeline.pipeline] [MainThread] 📝 Starting step execution: pole_and_zero_extraction (Global Step 5)
+2026-01-19 03:23:32.461 [    INFO] [p2m.pipeline.pipeline] [MainThread] ✅ API call completed, elapsed: 68.995s
+2026-01-19 03:23:32.464 [    INFO] [p2m.pipeline.pipeline] [MainThread] ✓ pole_and_zero_extraction completed
+2026-01-19 03:23:32.464 [    INFO] [p2m.pipeline.pipeline] [MainThread] [Step 6] pole_and_zero_positioning_and_metric_derivation
+2026-01-19 03:23:32.464 [    INFO] [p2m.pipeline.pipeline] [MainThread] [Global Step 6] [Iteration 1]
+2026-01-19 03:23:32.464 [    INFO] [p2m.pipeline.pipeline] [MainThread] 📝 Starting step execution: pole_and_zero_positioning_and_metric_derivation (Global Step 6)
+2026-01-19 03:24:55.949 [    INFO] [p2m.pipeline.pipeline] [MainThread] ✅ API call completed, elapsed: 83.484s
+2026-01-19 03:24:55.950 [    INFO] [p2m.pipeline.pipeline] [MainThread] ✓ pole_and_zero_positioning_and_metric_derivation completed
+2026-01-19 03:24:55.950 [    INFO] [p2m.pipeline.pipeline] [MainThread] [Step 7] white_box_optimization_programming
+2026-01-19 03:24:55.951 [    INFO] [p2m.pipeline.pipeline] [MainThread] [Global Step 7] [Iteration 1]
+2026-01-19 03:24:55.951 [    INFO] [p2m.pipeline.pipeline] [MainThread] 📝 Starting step execution: white_box_optimization_programming (Global Step 7)
+2026-01-19 03:26:01.419 [    INFO] [p2m.pipeline.pipeline] [MainThread] ✅ API call completed, elapsed: 65.468s
+2026-01-19 03:26:21.959 [    INFO] [p2m.pipeline.pipeline] [MainThread] ✅ API call completed, elapsed: 11.555s
+2026-01-19 03:26:21.959 [    INFO] [p2m.pipeline.pipeline] [MainThread] [Intelligent Analysis] Optimization result: Success
+2026-01-19 03:26:21.959 [    INFO] [p2m.pipeline.pipeline] [MainThread] ✅ Optimization execution successful
+2026-01-19 03:26:21.960 [    INFO] [p2m.pipeline.pipeline] [MainThread] ✓ white_box_optimization_programming completed
+2026-01-19 03:26:21.960 [    INFO] [p2m.pipeline.pipeline] [MainThread] ============================================================
+2026-01-19 03:26:21.960 [    INFO] [p2m.pipeline.pipeline] [MainThread] Step 8: Simulation Verification
+2026-01-19 03:26:21.960 [    INFO] [p2m.pipeline.pipeline] [MainThread] ============================================================
+2026-01-19 03:26:43.274 [    INFO] [p2m.pipeline.pipeline] [MainThread] ✅ API call completed, elapsed: 21.314s
+2026-01-19 03:26:43.358 [    INFO] [p2m.pipeline.pipeline] [MainThread] ✅ Simulation results parsed successfully:
+2026-01-19 03:26:43.359 [    INFO] [p2m.pipeline.pipeline] [MainThread]   Gain: 69.27 dB
+2026-01-19 03:26:43.359 [    INFO] [p2m.pipeline.pipeline] [MainThread]   Bandwidth: 8.51 MHz
+2026-01-19 03:26:43.359 [    INFO] [p2m.pipeline.pipeline] [MainThread]   Phase margin: 6.14°
+2026-01-19 03:26:43.359 [    INFO] [p2m.pipeline.pipeline] [MainThread]   Power: 31.18 μW
+2026-01-19 03:26:43.360 [    INFO] [p2m.pipeline.pipeline] [MainThread]   FoM: 2728.99
+2026-01-19 03:26:43.361 [    INFO] [p2m.pipeline.pipeline] [MainThread] ✅ Step 8 HSPICE simulation verification completed!
+2026-01-19 03:26:43.362 [    INFO] [p2m.pipeline.pipeline] [MainThread] ============================================================
+2026-01-19 03:26:43.362 [    INFO] [p2m.pipeline.pipeline] [MainThread] Step 9: Design Result Analysis and Decision-making
+2026-01-19 03:26:43.362 [    INFO] [p2m.pipeline.pipeline] [MainThread] ============================================================
+2026-01-19 03:26:43.363 [    INFO] [p2m.pipeline.pipeline] [MainThread] [Step 9] design_result_analysis_and_decision_making
+2026-01-19 03:26:43.363 [    INFO] [p2m.pipeline.pipeline] [MainThread] [Global Step 9] [Iteration 1]
+2026-01-19 03:26:43.363 [    INFO] [p2m.pipeline.pipeline] [MainThread] 📝 Starting step execution: design_result_analysis_and_decision_making (Global Step 9)
+2026-01-19 03:27:56.263 [    INFO] [p2m.pipeline.pipeline] [MainThread] ✅ API call completed, elapsed: 72.900s
+2026-01-19 03:27:56.266 [    INFO] [p2m.pipeline.pipeline] [MainThread] ✓ design_result_analysis_and_decision_making completed
+2026-01-19 03:27:56.274 [    INFO] [p2m.pipeline.pipeline] [MainThread] ⚠️ Decision: Retry required
+2026-01-19 03:27:56.275 [    INFO] [p2m.pipeline.pipeline] [MainThread] Will retry from step 6
+2026-01-19 03:27:56.275 [    INFO] [p2m.pipeline.pipeline] [MainThread] ============================================================
+2026-01-19 03:27:56.275 [    INFO] [p2m.pipeline.pipeline] [MainThread] 🔄 P2M Internal Iteration 2/3
+2026-01-19 03:27:56.275 [    INFO] [p2m.pipeline.pipeline] [MainThread] ============================================================
+2026-01-19 03:27:56.277 [    INFO] [p2m.pipeline.pipeline] [MainThread] 🔄 Retrying from step 6, using cached results from steps 1-5
+2026-01-19 03:27:56.277 [    INFO] [p2m.pipeline.pipeline] [MainThread] [Step 6] pole_and_zero_positioning_and_metric_derivation
+2026-01-19 03:27:56.277 [    INFO] [p2m.pipeline.pipeline] [MainThread] [Global Step 10] [Iteration 2]
+2026-01-19 03:27:56.278 [    INFO] [p2m.pipeline.pipeline] [MainThread] 📝 Starting step execution: pole_and_zero_positioning_and_metric_derivation (Global Step 10)
+2026-01-19 03:29:24.791 [    INFO] [p2m.pipeline.pipeline] [MainThread] ✅ API call completed, elapsed: 88.513s
+2026-01-19 03:29:24.793 [    INFO] [p2m.pipeline.pipeline] [MainThread] ✓ pole_and_zero_positioning_and_metric_derivation completed
+2026-01-19 03:29:24.793 [    INFO] [p2m.pipeline.pipeline] [MainThread] [Step 7] white_box_optimization_programming
+2026-01-19 03:29:24.793 [    INFO] [p2m.pipeline.pipeline] [MainThread] [Global Step 11] [Iteration 2]
+2026-01-19 03:29:24.793 [    INFO] [p2m.pipeline.pipeline] [MainThread] 📝 Starting step execution: white_box_optimization_programming (Global Step 11)
+2026-01-19 03:30:36.490 [    INFO] [p2m.pipeline.pipeline] [MainThread] ✅ API call completed, elapsed: 71.696s
+2026-01-19 03:31:22.787 [    INFO] [p2m.pipeline.pipeline] [MainThread] ✅ API call completed, elapsed: 17.313s
+2026-01-19 03:31:22.788 [    INFO] [p2m.pipeline.pipeline] [MainThread] [Intelligent Analysis] Optimization result: Success
+2026-01-19 03:31:22.788 [    INFO] [p2m.pipeline.pipeline] [MainThread] ✅ Optimization execution successful
+2026-01-19 03:31:22.788 [    INFO] [p2m.pipeline.pipeline] [MainThread] ✓ white_box_optimization_programming completed
+2026-01-19 03:31:22.788 [    INFO] [p2m.pipeline.pipeline] [MainThread] ============================================================
+2026-01-19 03:31:22.788 [    INFO] [p2m.pipeline.pipeline] [MainThread] Step 8: Simulation Verification
+2026-01-19 03:31:22.788 [    INFO] [p2m.pipeline.pipeline] [MainThread] ============================================================
+2026-01-19 03:31:44.708 [    INFO] [p2m.pipeline.pipeline] [MainThread] ✅ API call completed, elapsed: 21.918s
+2026-01-19 03:31:44.841 [    INFO] [p2m.pipeline.pipeline] [MainThread] ✅ Simulation results parsed successfully:
+2026-01-19 03:31:44.841 [    INFO] [p2m.pipeline.pipeline] [MainThread]   Gain: 67.24 dB
+2026-01-19 03:31:44.842 [    INFO] [p2m.pipeline.pipeline] [MainThread]   Bandwidth: 0.94 MHz
+2026-01-19 03:31:44.842 [    INFO] [p2m.pipeline.pipeline] [MainThread]   Phase margin: 67.02°
+2026-01-19 03:31:44.842 [    INFO] [p2m.pipeline.pipeline] [MainThread]   Power: 14.72 μW
+2026-01-19 03:31:44.842 [    INFO] [p2m.pipeline.pipeline] [MainThread]   FoM: 638.18
+2026-01-19 03:31:44.844 [    INFO] [p2m.pipeline.pipeline] [MainThread] ✅ Step 8 HSPICE simulation verification completed!
+2026-01-19 03:31:44.844 [    INFO] [p2m.pipeline.pipeline] [MainThread] ============================================================
+2026-01-19 03:31:44.844 [    INFO] [p2m.pipeline.pipeline] [MainThread] Step 9: Design Result Analysis and Decision-making
+2026-01-19 03:31:44.844 [    INFO] [p2m.pipeline.pipeline] [MainThread] ============================================================
+2026-01-19 03:31:44.845 [    INFO] [p2m.pipeline.pipeline] [MainThread] [Step 9] design_result_analysis_and_decision_making
+2026-01-19 03:31:44.845 [    INFO] [p2m.pipeline.pipeline] [MainThread] [Global Step 13] [Iteration 2]
+2026-01-19 03:31:44.845 [    INFO] [p2m.pipeline.pipeline] [MainThread] 📝 Starting step execution: design_result_analysis_and_decision_making (Global Step 13)
+2026-01-19 03:32:38.298 [    INFO] [p2m.pipeline.pipeline] [MainThread] ✅ API call completed, elapsed: 53.452s
+2026-01-19 03:32:38.300 [    INFO] [p2m.pipeline.pipeline] [MainThread] ✓ design_result_analysis_and_decision_making completed
+2026-01-19 03:32:38.303 [    INFO] [p2m.pipeline.pipeline] [MainThread] 🎉 Optimization result accepted! P2M chain completed successfully!
+2026-01-19 03:32:38.304 [    INFO] [p2m.pipeline.pipeline] [MainThread] ✅ Selected iteration 2 as best iteration (decision: ACCEPT)
+2026-01-19 03:32:38.310 [    INFO] [p2m.pipeline.pipeline] [MainThread] ✅ Circuit data collected: a0458e61...

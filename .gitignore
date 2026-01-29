@@ -1,0 +1,5 @@
+# ignore local cache files
+local_cache/
+# python cache
+__pycache__/
+*.pyc
